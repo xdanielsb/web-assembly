@@ -1,12 +1,13 @@
 (module
-  (func $add (param $p i32)
+  (func $add (param $a i32) (param $b i32)
     (result i32)
-    local.get $p
-    local.get $p
+    local.get $a
+    local.get $b
     i32.add
   )
   (func (export "main") (result i32)
     i32.const 13
+    i32.const 12
     call $add 
   )
-)wasm-interp functions.wasm --run-all-exports
+)
