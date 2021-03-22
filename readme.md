@@ -19,7 +19,9 @@ The are heavy task to run in the browser using js like image recognition, music 
 
 C/C++/Rust -> compile to WASM -> Web browser
 
+##### semantics
 
+https://github.com/WebAssembly/design/blob/master/Semantics.md
 
 ##### Compile and Run
 ```sh
